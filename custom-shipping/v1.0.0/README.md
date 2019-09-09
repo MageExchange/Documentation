@@ -1,9 +1,3 @@
----
-layout: default
-title: Magento 2 Custom Shipping Manual - MageExchange
-description: testing this
----
-
 ## Custom Shipping Manual - Magento 2 Extension - v1.0.0
 Welcome to the **Custom Shipping** Magento module documentation! As always, we appreciate your business!
 
