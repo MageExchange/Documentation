@@ -19,7 +19,7 @@
 
 
 #### MageExchange Magento 2 Disable Newsletter Email Extension
-[MageExchange Magento 2 GDPR Extension](https://www.mageexchange.com/disable-newsletter-sign-up-emails-magento-2)  
+[MageExchange Magento 2 Disable Newsletter Email Extension](https://www.mageexchange.com/disable-newsletter-sign-up-emails-magento-2)  
 [Magento 2 Disable Newsletter Email Extension Documentation](https://documentation.mageexchange.com/disable-newsletter-email/v1.0.0/)
 
 
