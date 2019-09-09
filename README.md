@@ -27,3 +27,4 @@
 #### MageExchange Magento 2 GDPR Extension
 [MageExchange Magento 2 GDPR Extension](https://www.mageexchange.com/gdpr-magento-2)  
 [Magento 2 GDPR Extension Documentation](https://documentation.mageexchange.com/gdpr/v1.0.0/)
+ssss
