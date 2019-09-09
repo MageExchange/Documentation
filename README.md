@@ -1,19 +1,19 @@
 ## Welcome to MageExchange Magento 2 Documentations
 
 #### MageExchange Magento 2 Custom Shipping Extension
-[Magento 2 Custom Shipping Extension](https://www.mageexchange.com/custom-shipping-method-magento-2)  
+[MageExchange Magento 2 Custom Shipping Extension](https://www.mageexchange.com/custom-shipping-method-magento-2)  
 [Magento 2 Custom Shipping Extension Documentation](https://documentation.mageexchange.com/custom-shipping/v1.0.0/)
 
 
 
 #### MageExchange Magento 2 Customer Delete Account Extension
-[Magento 2 Customer Delete Account Extension](https://www.mageexchange.com/customer-delete-account-magento-2)  
+[MageExchange Magento 2 Customer Delete Account Extension](https://www.mageexchange.com/customer-delete-account-magento-2)  
 [Magento 2 Customer Delete Account Extension Documentation](https://documentation.mageexchange.com/customer-delete-account/v1.0.0/)
 
 
 
 #### MageExchange Magento 2 Delete Orders Extension
-[Magento 2 Delete Orders Extension](https://www.mageexchange.com/delete-orders-magento-2)  
+[MageExchange Magento 2 Delete Orders Extension](https://www.mageexchange.com/delete-orders-magento-2)  
 [Magento 2 Delete Orders Extension Documentation](https://documentation.mageexchange.com/delete-orders/v1.0.0/)
 
 
