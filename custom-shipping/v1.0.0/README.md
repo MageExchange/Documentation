@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Magento 2 Custom Shipping Manual - MageExchange
 description: testing this
 ---
