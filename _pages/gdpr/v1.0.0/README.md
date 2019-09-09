@@ -1,15 +1,15 @@
 ---
 layout: default
-description: This documentation contains everything you need to about the Magento 2 Disable Newsletter Confirmation Email module from installing the module to managing the module.
-permalink: /disable-newsletter-email/v1.0.0/
+description: This documentation contains everything you need to about the Magento 2 GDPR module from installing the module to managing the module.
+permalink: /gdpr/v1.0.0/
 ---
 
-## Disable Newsletter Sign Up Emails Manual - Magento 2 Extension - v1.0.0
-Welcome to the **Disable Newsletter Sign Up Emails** Magento module documentation! As always, we appreciate your business!
+## GDPR Manual - Magento 2 Extension - v1.0.0
+Welcome to the **GDPR** Magento module documentation! As always, we appreciate your business!
 
 This documentation contains everything you need to know from installing the module to managing the module.
 
-Our [Disable Newsletter Confirmation Email Magento 2 module](https://www.mageexchange.com/disable-newsletter-sign-up-emails-magento-2) allows you to disable the newsletter sign up confirmation emails. This is especially helpful when you are receiving a lot of spam or bot newsletter sign ups and want to lower your email bounce rate.
+Our [GDPR Magento 2 module](https://www.mageexchange.com/gdpr-magento-2) Our Magento 2 GDPR module helps your business to comply with the latest legislative EU requirements. This helps to protect your customer's data by allowing your customer's to have control over the data they want to share or remove.
 
 
 ### Getting Started
@@ -26,7 +26,7 @@ At this point, we assume you have already downloaded your purchased module. If y
 3. Unzip the downloaded module.
 4. Move the appropriate Magento module files located inside this folder to your existing Magento store root directory without overwriting any existing core Magento files.
 5. Login to your server using a command line interface (CLI) tool and navigate to your Magento's store root directory. Example: ```cd /path/to/your/Magento/store/public_html```
-6. Run the following command: ```php -f bin/magento module:enable MageExchange_NewsletterSignupNotification --clear-static-content```
+6. Run the following command: ```php -f bin/magento module:enable MageExchange_Gdpr --clear-static-content```
 7. Run the following command:
 ```php -f bin/magento setup:upgrade```
 8. Run the following command: ```php -f bin/magento cache:clean```
@@ -37,10 +37,26 @@ At this point, we assume you have already downloaded your purchased module. If y
 
 
 ### User Configuration
-**Disable Confirmation Sign Up Email:** This will enable or disable this functionality. When enabled, new newsletter subscribers will no longer be sent a confirmation email.
+#### General Settings
+**Enable GDPR:** This will enable the GDPR module
 
-**Need to Confirm:** Change this method to No.
+#### Customer Permissions
+**Delete Customer Address:** Allow the customer to delete their billing and shipping addresses.
 
+**Delete Cookies:** Allow the customer to delete store cookies. This version currently deletes the amz_auth_err, amz_auth_logout, guest-view, login_redirect, mage-cache-sessid, mage-cache-storage, mage-cache-storage-section-invalidation, persistent_shopping_cart, private_content_version, product_data_storage, recently_compared_product, recently_compared_product_previous, recently_viewed_product, recently_viewed_product_previous, section_data_ids, stf, store, __utma, __utmt, __utmb, _utmz and __utmv cookies.
+
+**Delete Account:** Allow the customer to delete their account. This will automatically delete user cookies, abandoned cart data, addresses and anonymize all their orders depending on your GDPR settings. e.g. If everything is enabled, all cookies and data will be erased and/or anonymized at once.
+
+#### Customer Order Anonymization
+**Allow Anonymized Orders:** This will allow the customer to anonymize the order information on their orders including the invoice, shipment and credit memo. The customer's first name, last name, email address, billing address, shipping address and phone number will be anonymized forever.
+
+**Anonymize Orders Not Closed/Completed:** **Note**: "Allow Anonymized Orders" must also be enabled for this option to work. If enabled, this will allow the customer to anonymize orders in any state. If disabled, the customer can only anonymize orders that have been marked with a status of complete, closed or cancelled. If disabled you must anonymize the remaining associated customer order data that is not marked as complete, closed or cancelled at the customer's request.
+
+**Anonymized First Name:** Enter the first name that you would like to use to replace the actual customer's first name. If left blank, Xxxxxxxxxxx will be used to replace their first name.
+
+**Anonymized Last Name:** Enter the last name that you would like to use to replace the actual customer's last name. If left blank, Xxxxxxx will be used to replace their last name.
+
+**Anonymized Email:** Enter the email address that you would like to use to replace the actual customer's email address. If left blank, anonymized@fakeemail.com will be used to replace their email address.
 
 ### Troubleshooting
 We will update this section with common technical questions or issues. However, at this time there are none.
