@@ -34,12 +34,19 @@ At this point, we assume you have already downloaded your purchased module. If y
 **Enabled:** This will enable or disable the Custom Shipping module
 
 **Title:** This will set the title of the custom shipping method. e.g. Flat Rate
+
 **Method Name:** This is the method name of the custom shipping. e.g. White Glove Delivery
+
 **Shipping Cost:** This is the flat rate shipping cost per order for this new method.
+
 **Ship to Applicable Countries:** Allow all Countries our specific Countries
+
 **Ship to Specific Countries:** Choose specific Countries that you would like to use this shipping method for if "Specific Countries" was selected in the previous setting.
+
 **Show Method if Not Applicable:** Decide whether or not to show this method if it isn't available.
+
 **Displayed Error Message:** If "Show Method if Not Applicable" was set to yes, display a custom method to the user if the method isn't available for them.
+
 **Sort Order:** Set the order this shipping method show be displayed in.
 
 
