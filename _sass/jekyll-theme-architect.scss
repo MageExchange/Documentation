@@ -77,12 +77,6 @@ li {
   margin-bottom: 15px;
 }
 
-code {
-    display: block;
-    margin-bottom: 0;
-    padding: 10px;
-}
-
 aside#sidebar {
   float: right;
   width: 200px;
@@ -132,20 +126,21 @@ aside a.button {
 }
 
 code, pre {
-  margin-bottom: 30px;
+  margin-bottom: 0;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #222;
+  display: block;
 }
 
 code {
-  padding: 0 3px;
+  padding: 10px;
   background-color: #f2f8fc;
   border: solid 1px #dbe7f3;
 }
 
 pre {
-  padding: 20px;
+  padding: 10px;
   overflow: auto;
   text-shadow: none;
   background: #fff;
