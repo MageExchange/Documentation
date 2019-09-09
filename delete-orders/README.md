@@ -31,7 +31,7 @@ At this point, we assume you have already downloaded your purchased module. If y
 
 
 ### User Configuration
-**Enabled** This will enable or disable the Delete Orders module
+**Enabled:** This will enable or disable the Delete Orders module
 
 
 ### Troubleshooting
