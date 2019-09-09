@@ -3,7 +3,7 @@ Welcome to the **Delete Orders** Magento module documentation! As always, we ap
 
 This documentation contains everything you need to know from installing the module to managing the module.
 
-Our [Delete Orders Magento 2 module](https://www.mageexchange.com/delete-orders-magento-2) is light weight and flexible. It allows your company to easily add a custom shipping method to all your Magento storefronts.
+Our [Delete Orders Magento 2 module](https://www.mageexchange.com/delete-orders-magento-2) is light weight and ideal for store owners looking to permanently delete orders from their online store. This module is especially helpful for deleting test orders that were made.
 
 
 ### Getting Started
