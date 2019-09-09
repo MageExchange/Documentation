@@ -1,37 +1,59 @@
-## Welcome to Delete Orders
+### Delete Orders Manual - Magento 2 Extension
+Welcome to the **Delete Orders** module documentation! As always, we appreciate your business!
 
-You can use the [editor on GitHub](https://github.com/beckindesigns/test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This documentation contains everything you need to know from installing the module to managing the module.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Our [Delete Orders Magento 2 module](https://www.mageexchange.com/delete-orders-magento-2) is light weight and flexible. It allows your company to easily add a custom shipping method to all your Magento storefronts.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Getting Started
+Simply visit your account dashboard and click on the link labeled **My Downloadable Products** to locate your purchased module. Finally, download your purchased module in order to get started.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Installation Manual
+At this point, we assume you have already downloaded your purchased module. If you have not, please visit the Getting Started section of this document before proceeding. If you did not purchase the "Module Installation" option during checkout and would like us to install this module for you, simply purchase this option here: [Installation Service](https://www.mageexchange.com/module-installation-service-magento-2)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+#### Installing & Activating the Module
+1. It is best practice to make a backup of your database and Magento installation directory before installing any Magento module so you are able to safely roll back should any problems arise during the install.
 
-**Bold** and _Italic_ and `Code` text
+2. Create a file called .maintenance.flag (using your favorite FTP/SFTP software; e.g. Filezilla, Transmit, ...) and place it inside your Magento store root directory inside of the var folder. This will put your Magento store into maintenance mode. Please note: Be sure to use login to your server as the appropriate Magento file owner for the directory before proceeding to ensure proper file permissions.
+3. Unzip the downloaded module.
+4. Move the appropriate Magento module files located inside this folder to your existing Magento store root directory without overwriting any existing core Magento files.
+5. Login to your server using a command line interface (CLI) tool and navigate to your Magento's store root directory. Example: 
 
-[Link](url) and ![Image](src)
-```
+```cd /path/to/your/Magento/store/public_html```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+6. Run the following command: 
+```php -f bin/magento module:enable MageExchange_DeleteOrders --clear-static-content```
 
-### Jekyll Themes
+7. Run the following command:
+```php -f bin/magento setup:upgrade```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/beckindesigns/test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+8. Run the following command: 
+```php -f bin/magento cache:clean```
 
-### Support or Contact
+9. Run the following command: 
+```rm -rf var/view_preprocessed/* pub/static/* generated/*```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+10. Run the following command: 
+```php -f bin/magento setup:static-content:deploy```
+
+11. If your store is currently in production mode, please run the following command: 
+```php bin/magento setup:di:compile```
+
+12. Remove the .maintenance.flag file that you created to take the store out of maintenance mode.
+
+
+### User Configuration
+**Enabled** This will enable or disable the Delete Orders module
+
+
+### Troubleshooting
+We will update this section with common technical questions or issues. However, at this time there are none.
+
+Should you need any support or have valuable feedback, please feel free to open a ticket at anytime at [https://www.mageexchange.com/contact](https://www.mageexchange.com/contact).
+
+
+### Thank You
+We would just like to take this time to say thank you for purchasing from MageExchange! Your business is greatly appreciated and we hope you come back to us for all of your Magento 2 module needs in the future!
