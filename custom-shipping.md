@@ -1,7 +1,7 @@
 ---
 layout: default
 description: This documentation contains everything you need to about the Magento 2 Custom Shipping module from installing the module to managing the module.
-permalink: /custom-shipping/
+permalink: /v1.1.0/custom-shipping/
 ---
 
 ## Custom Shipping Manual - Magento 2 Extension - v1.0.0
