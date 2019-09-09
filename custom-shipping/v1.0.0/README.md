@@ -1,5 +1,4 @@
 ---
-layout: default
 title: About
 description: Testing this
 ---
