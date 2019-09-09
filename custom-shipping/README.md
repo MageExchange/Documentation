@@ -32,6 +32,7 @@ At this point, we assume you have already downloaded your purchased module. If y
 
 ### User Configuration
 **Enabled:** This will enable or disable the Custom Shipping module
+
 **Title:** This will set the title of the custom shipping method. e.g. Flat Rate
 **Method Name:** This is the method name of the custom shipping. e.g. White Glove Delivery
 **Shipping Cost:** This is the flat rate shipping cost per order for this new method.
