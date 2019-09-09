@@ -1,4 +1,4 @@
-# Delete Orders Manual - Magento 2 Extension - v1.0.0
+## Delete Orders Manual - Magento 2 Extension - v1.0.0
 Welcome to the **Delete Orders** Magento module documentation! As always, we appreciate your business!
 
 This documentation contains everything you need to know from installing the module to managing the module.
@@ -6,11 +6,11 @@ This documentation contains everything you need to know from installing the modu
 Our [Delete Orders Magento 2 module](https://www.mageexchange.com/delete-orders-magento-2) is light weight and flexible. It allows your company to easily add a custom shipping method to all your Magento storefronts.
 
 
-## Getting Started
+### Getting Started
 Simply visit your account dashboard and click on the link labeled **My Downloadable Products** to locate your purchased module. Finally, download your purchased module in order to get started.
 
 
-## Installation Manual
+### Installation Manual
 At this point, we assume you have already downloaded your purchased module. If you have not, please visit the Getting Started section of this document before proceeding. If you did not purchase the "Module Installation" option during checkout and would like us to install this module for you, simply purchase this option here: [Installation Service](https://www.mageexchange.com/module-installation-service-magento-2)
 
 
@@ -30,15 +30,15 @@ At this point, we assume you have already downloaded your purchased module. If y
 12. Remove the .maintenance.flag file that you created to take the store out of maintenance mode.
 
 
-## User Configuration
+### User Configuration
 **Enabled** This will enable or disable the Delete Orders module
 
 
-## Troubleshooting
+### Troubleshooting
 We will update this section with common technical questions or issues. However, at this time there are none.
 
 Should you need any support or have valuable feedback, please feel free to open a ticket at anytime at [https://www.mageexchange.com/contact](https://www.mageexchange.com/contact).
 
 
-## Thank You
+### Thank You
 We would just like to take this time to say thank you for purchasing from MageExchange! Your business is greatly appreciated and we hope you come back to us for all of your Magento 2 module needs in the future!
