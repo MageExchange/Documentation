@@ -73,6 +73,16 @@ header h2 {
   max-width: 100%;
 }
 
+li {
+  margin-bottom: 15px;
+}
+
+code {
+    display: block;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
 aside#sidebar {
   float: right;
   width: 200px;
