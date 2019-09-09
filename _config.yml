@@ -2,3 +2,6 @@ theme: jekyll-theme-architect
 title: Documentation - MageExchange
 github:
   is_project_page: false
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
