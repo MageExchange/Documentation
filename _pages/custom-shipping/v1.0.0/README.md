@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Magento 2 Custom Shipping Module v1.0.0
-description: This documentation contains everything you need to about the Magento 2 Custom Shipping module from installing the module to managing the module.
+title: Custom Shipping v1.0.0
+description: This documentation contains everything you need to about the Magento 2 Custom Shipping module from installing & managing this extension.
 permalink: /custom-shipping/v1.0.0/
 ---
 
