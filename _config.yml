@@ -1,6 +1,5 @@
 theme: jekyll-theme-architect
 title: MageExchange Documentation
-custom_shipping_description: kfjdksdjks test
 github:
   is_project_page: false
 plugins:
