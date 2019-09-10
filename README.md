@@ -1,3 +1,10 @@
+---
+layout: default
+title: Magento 2 Extensions
+description: Our documentation manuals contain everything you need to about installing & configuring MageExchange modules.
+permalink: /
+---
+
 ## Welcome to MageExchange Magento 2 Documentations
 
 #### MageExchange Magento 2 Custom Shipping Extension
