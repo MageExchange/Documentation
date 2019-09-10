@@ -44,7 +44,7 @@ At this point, we assume you have already downloaded your purchased module. If y
 ### Troubleshooting
 We will update this section with common technical questions or issues. However, at this time there are none.
 
-Should you need any support or have valuable feedback, please feel free to open a ticket at anytime at [https://www.mageexchange.com/contact](https://www.mageexchange.com/contact).
+Should you need any support or have valuable feedback, please feel free to open a ticket at anytime at [https://www.mageexchange.com/contact](https://www.mageexchange.com/contact/).
 
 
 ### Thank You
