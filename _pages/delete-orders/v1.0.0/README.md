@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Magento 2 Delete Orders Module v1.0.0
 description: This documentation contains everything you need to about the Magento 2 Delete Orders module from installing the module to managing the module.
 permalink: /delete-orders/v1.0.0/
 ---
