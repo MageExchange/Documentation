@@ -48,11 +48,11 @@ Should you need any support or have valuable feedback, please feel free to open 
 
 
 ### Change Log
-#### 2.0.0
+**2.0.0**    
 
-(2019-09-14)
+(2019-09-14)  
 
-**Improvements**
+**Improvements**   
 Added the ability for users to mass select and delete orders from the admin order grid.
 
 
