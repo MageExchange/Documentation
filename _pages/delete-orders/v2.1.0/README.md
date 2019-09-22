@@ -45,8 +45,8 @@ At this point, we assume you have already downloaded your purchased module. If y
 We will update this section with common technical questions or issues. However, at this time there are none.
 
 Should you need any support or have valuable feedback, please feel free to open a ticket at anytime at [https://www.mageexchange.com/contact](https://www.mageexchange.com/contact/).   
-   
-   
+    
+    
 ### Change Log
 (**2.1.0**) 2019-09-22    
     
@@ -56,7 +56,7 @@ Should you need any support or have valuable feedback, please feel free to open 
     
     
 (**2.0.0**) 2019-09-14    
-
+    
 **Improvements**   
 - Added the ability for users to mass select and delete orders from the admin order grid.    
 
