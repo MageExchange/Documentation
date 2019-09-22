@@ -48,21 +48,17 @@ Should you need any support or have valuable feedback, please feel free to open 
    
    
 ### Change Log
-**2.1.0**    
-
-(2019-09-22)  
+(**2.1.0**) 2019-09-22    
+    
+**Improvements**   
+- Added our base module which allows you to easily check if there are updates to any of your MageExchange modules without ever leaving your backend.    
+- General code cleanup.    
+    
+    
+(**2.0.0**) 2019-09-14    
 
 **Improvements**   
-- Added our base module which allows you to easily check if there are updates to any of your MageExchange modules without ever leaving your backend.   
-- General code cleanup.
-
-
-**2.0.0**    
-
-(2019-09-14)  
-
-**Improvements**   
-- Added the ability for users to mass select and delete orders from the admin order grid.
+- Added the ability for users to mass select and delete orders from the admin order grid.    
 
 
 ### Thank You
