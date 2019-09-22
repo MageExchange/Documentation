@@ -64,10 +64,8 @@ Should you need any support or have valuable feedback, please feel free to open 
    
    
 ### Change Log
-**1.1.0**    
-
-(2019-09-22)  
-
+(**1.1.0**) 2019-09-22   
+   
 **Improvements**   
 - Added our base module which allows you to easily check if there are updates to any of your MageExchange modules without ever leaving your backend.   
 - General code cleanup.   
