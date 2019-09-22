@@ -30,11 +30,11 @@ At this point, we assume you have already downloaded your purchased module. If y
 6. Run the following command: ```php -f bin/magento module:enable MageExchange_CustomShipping --clear-static-content```
 7. Run the following command:
 ```php -f bin/magento setup:upgrade```
-8. Run the following command: ```php -f bin/magento cache:clean```
-9. Run the following command: ```rm -rf var/view_preprocessed/* pub/static/* generated/*```
-10. Run the following command: ```php -f bin/magento setup:static-content:deploy```
-11. If your store is currently in production mode, please run the following command: ```php bin/magento setup:di:compile```
-12. Remove the .maintenance.flag file that you created to take the store out of maintenance mode.
+8. Run the following command: ```rm -rf var/view_preprocessed/* pub/static/* generated/*```
+9. Run the following command: ```php -f bin/magento cache:clean```
+10. If your store is currently in production mode, please run the following command: ```php bin/magento setup:di:compile```
+11. Run the following command: ```php -f bin/magento setup:static-content:deploy```
+12. Remove the .maintenance.flag file that you created to take the store out of maintenance mode.
 
 
 ### User Configuration
