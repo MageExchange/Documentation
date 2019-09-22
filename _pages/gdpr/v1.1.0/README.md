@@ -38,17 +38,17 @@ At this point, we assume you have already downloaded your purchased module. If y
 
 
 ### User Configuration
-#### General Settings
+### General Settings
 **Enable GDPR:** This will enable the GDPR module
 
-#### Customer Permissions
+### Customer Permissions
 **Delete Customer Address:** Allow the customer to delete their billing and shipping addresses.
 
 **Delete Cookies:** Allow the customer to delete store cookies. This version currently deletes the amz_auth_err, amz_auth_logout, guest-view, login_redirect, mage-cache-sessid, mage-cache-storage, mage-cache-storage-section-invalidation, persistent_shopping_cart, private_content_version, product_data_storage, recently_compared_product, recently_compared_product_previous, recently_viewed_product, recently_viewed_product_previous, section_data_ids, stf, store, __utma, __utmt, __utmb, _utmz and __utmv cookies.
 
 **Delete Account:** Allow the customer to delete their account. This will automatically delete user cookies, abandoned cart data, addresses and anonymize all their orders depending on your GDPR settings. e.g. If everything is enabled, all cookies and data will be erased and/or anonymized at once.
 
-#### Customer Order Anonymization
+### Customer Order Anonymization
 **Allow Anonymized Orders:** This will allow the customer to anonymize the order information on their orders including the invoice, shipment and credit memo. The customer's first name, last name, email address, billing address, shipping address and phone number will be anonymized forever.
 
 **Anonymize Orders Not Closed/Completed:** **Note**: "Allow Anonymized Orders" must also be enabled for this option to work. If enabled, this will allow the customer to anonymize orders in any state. If disabled, the customer can only anonymize orders that have been marked with a status of complete, closed or cancelled. If disabled you must anonymize the remaining associated customer order data that is not marked as complete, closed or cancelled at the customer's request.
