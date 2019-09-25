@@ -40,7 +40,7 @@ At this point, we assume you have already downloaded your purchased module. If y
 ### User Configuration
 **Enabled:** This will enable or disable this functionality. When enabled, a notice can be displayed at the top of your Magento 2 store website.
 
-**Storefront Notice Message:** This is where you can enter in the notice you would like to display. Feel free to enter your notice in this field. This field does accept and render HTML so we recommend you at least wrap your notice/message in a paragraph tag. e.g. **<p>Some message here...</p>**
+**Storefront Notice Message:** This is where you can enter in the notice you would like to display. Feel free to enter your notice in this field. This field does accept and render HTML so we recommend you at least wrap your notice/message in a paragraph tag. e.g. **<p>**Some message here...**</p>**
 
 
 ### Troubleshooting
