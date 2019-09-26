@@ -2,6 +2,7 @@
 layout: current
 title: Cart Export v1.0.0
 description: This documentation contains everything you need to about the Magento 2 Cart Export module from installing & managing this extension.
+canonical: /cart-export/v1.0.0/
 permalink: /cart-export/v1.0.0/
 ---
 
