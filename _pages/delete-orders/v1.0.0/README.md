@@ -2,7 +2,7 @@
 layout: default
 title: Delete Orders v1.0.0
 description: This documentation contains everything you need to about the Magento 2 Delete Orders module from installing & managing this extension.
-canonical: /delete-orders/v2.1.0/
+canonical_url: /delete-orders/v2.1.0/
 permalink: /delete-orders/v1.0.0/
 ---
 
