@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: current
 title: GDPR v1.1.0
 description: This documentation contains everything you need to about the Magento 2 GDPR module from installing & managing this extension.
 permalink: /gdpr/v1.1.0/
