@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: current
 title: Magento 2 Storefront Notice v1.0.0
 description: This documentation contains everything you need to about the Magento 2 Storefront Notice module from installing & managing this extension.
 permalink: /storefront-notice/v1.0.0/
