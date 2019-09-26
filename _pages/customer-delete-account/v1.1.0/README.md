@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: current
 title: Customer Delete Account v1.1.0
 description: This documentation contains everything you need to about the Magento 2 Customer Delete Account module from installing & managing this extension.
 permalink: /customer-delete-account/v1.1.0/
