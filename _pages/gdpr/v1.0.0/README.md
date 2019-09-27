@@ -2,7 +2,7 @@
 layout: default
 title: GDPR v1.0.0
 description: This documentation contains everything you need to about the Magento 2 GDPR module from installing & managing this extension.
-canonical_url: https://documentation.mageexchange.com/gdpr/v2.1.0/
+canonical_url: https://documentation.mageexchange.com/gdpr/v1.1.0/
 permalink: /gdpr/v1.0.0/
 ---
 
