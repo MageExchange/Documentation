@@ -1,5 +1,5 @@
 ---
-layout: current
+layout: default
 title: Custom Shipping v1.1.0
 description: This documentation contains everything you need to about the Magento 2 Custom Shipping module from installing & managing this extension.
 canonical_url: https://documentation.mageexchange.com/custom-shipping/v1.1.0/
