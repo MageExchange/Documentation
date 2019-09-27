@@ -1,7 +1,8 @@
 ---
-layout: current
+layout: default
 title: Disable Newsletter Email v1.1.0
 description: This documentation contains everything you need to about the Magento 2 Disable Newsletter Confirmation Email module from installing & managing this extension.
+canonical_url: https://documentation.mageexchange.com/disable-newsletter-email/v1.1.0/
 permalink: /disable-newsletter-email/v1.1.0/
 ---
 
